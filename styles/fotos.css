@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 body{
     background-color: #252525;
@@ -23,6 +23,7 @@ header{
 img{
     width: 150px;
     height: 150px;
+    padding: 1rem;
 }
 ul{
     display: flex;
@@ -77,7 +78,15 @@ main{
     transform: scale(1.1);
     transition: .3s;
 }
-
+.a{
+    background-image: url('../images/mr1.jpg');
+}
+.b{
+    background-image: url('../images/mr2.jpg');
+}
+.c{
+    background-image: url('../images/mr3.jpg');
+}
 
 
 footer{
@@ -95,10 +104,18 @@ footer{
 }
 footer > a{
     color: #4e4e4e;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 i{
     color:white;
     font-size: 1.5rem;
+}
+::-webkit-scrollbar{
+    background-color: #3f3f3f;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.699);
 }
