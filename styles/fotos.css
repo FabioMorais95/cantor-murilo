@@ -66,25 +66,19 @@ main{
 }
 .foto{
     width: 40%;
-    background-color: #252525;
+    background-image: url('../images/pexels-wendy-wei-1190297.jpg');
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
     border-radius: .5rem;
     transition: .1s;
+    background-position: center top;
+    background-size: cover;
 }
 .foto:hover{
     transform: scale(1.1);
     transition: .3s;
 }
-.a{
-    background-image: url('../images/pexels-lachlan-ross-5967794.jpg');
-    background-position: center top;
-    background-size: cover;
-}
-.e{
-    background-image: url('../images/pexels-lachlan-ross-5967794.jpg');
-    background-position: center top;
-    background-size: cover;
-}
+
+
 
 footer{
     width: 100vw;
