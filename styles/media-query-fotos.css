@@ -4,8 +4,15 @@
         justify-content: space-between;
         align-items: center;
     }
+    .fotos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
     .foto{
         width: 20%;
+        height: 50%;
     }
     .videos{
         display: flex;
